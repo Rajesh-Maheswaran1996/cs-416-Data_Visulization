@@ -25,20 +25,20 @@
 
     </div>
     <div id="visulization-container">
-      <div id="annotation-step-amount">
-        <div class="annotation-step-value" id="step1-annotation" style="display:block;">
+      <div id="annotation-steps">
+        <div class="annotation-step" id="step1-annotation" style="display:block;">
           <div class="annotation" id="step1-high-annotation" >
             <h4>As horsepower increases C02 emissions increase for all vehicle types.</h4>
                 		  
           </div>
          </div>
-        <div class="annotation-step-value" id="step2-annotation">
+        <div class="annotation-step" id="step2-annotation">
           <div class="annotation" id="step2-high-annotation" >
 	    <h4>Mouseover the data to see the individual trends for Cars, Trucks or SUVs.</h4>
 				
           </div>
         </div>
-	<div class="annotation-step-value" id="step3-annotation">
+	<div class="annotation-step" id="step3-annotation">
           <div class="annotation" id="step3-high-annotation" >
 	    <h4>No matter what type of vehicle you choose. Maybe your next purchase should be less powerful?</h4>
 		
@@ -94,7 +94,7 @@
 	    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 	// Get the data
-	d3.csv("epa2015_final.csv", function(error, data) {
+	d3.csv("data/epa2015_final.csv", function(error, data) {
 	  if (error) throw error;
 
 	  data.forEach(function(d) {

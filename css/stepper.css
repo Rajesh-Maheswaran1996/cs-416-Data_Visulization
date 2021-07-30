@@ -46,8 +46,8 @@ a.desc-link:hover, a.active {
   margin-top: 10px;
 }
 
-/* All the .annotation-step divs are inside #annotation-step-amount. z-index ensures annotations stay on top of visualization. */
-#annotation-step-amount {
+/* All the .annotation-step divs are inside #annotation-steps. z-index ensures annotations stay on top of visualization. */
+#annotation-steps {
   position: absolute;
   z-index: 40;
 }
@@ -67,7 +67,7 @@ a.desc-link:hover, a.active {
 }
 
 /* By default, all annotation-steps are hidden. */
-.annotation-step-value {
+.annotation-step {
   position: absolute;
   display: none;
 }
