@@ -72,7 +72,6 @@ a.desc-link:hover, a.active {
   display: none;
 }
 
-/* Finally we can position each annotation exactly how we want. */
 .annotation {
   position: absolute;
 }
