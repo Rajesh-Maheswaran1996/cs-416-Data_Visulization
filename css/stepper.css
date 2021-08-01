@@ -78,20 +78,20 @@ a.desc-link:hover, a.active {
 }
  
 #step1-high-annotation {
-  left: 170px;
-  top: 130px;
+  left: 20px;
+  top: 0px;
   width: 140px;
 }
 
 #step2-high-annotation {
-  left: 200px;
-  top: 60px;
+  left: 20px;
+  top: 0px;
   width: 140px;
 }
 
 #step3-high-annotation {
-  left: 240px;
-  top: 30px;
+  left: 20px;
+  top: 0px;
   width: 140px;
 }
 
